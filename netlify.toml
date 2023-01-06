@@ -1,11 +1,5 @@
 [[redirects]]
-  from = "/board"
+  from = "/board/*"
   to = "http://mytest.cafe24app.com/board"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/board/:no"
-  to = "http://mytest.cafe24app.com/board/:no"
   status = 200
   force = true
