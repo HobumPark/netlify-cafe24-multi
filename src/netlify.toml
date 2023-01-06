@@ -3,3 +3,9 @@
   to = "http://mytest.cafe24app.com/board"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/board/*"
+  to = "http://mytest.cafe24app.com/board/*"
+  status = 200
+  force = true
