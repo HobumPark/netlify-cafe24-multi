@@ -7,4 +7,11 @@ module.exports = (app) => {
 			changeOrigin: true,
 		})
 	);
+
+	app.use(
+		createProxyMiddleware('/board/*', {
+			target: 'http://mytest.cafe24app.com', 
+			changeOrigin: true,
+		})
+	);
 };
