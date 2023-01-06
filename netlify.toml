@@ -5,7 +5,7 @@
   force = true
 
 [[redirects]]
-  from = "/board/*"
+  from = "/board/:no"
   to = "http://mytest.cafe24app.com/board/:no"
   status = 200
   force = true
